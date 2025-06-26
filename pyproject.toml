@@ -1,0 +1,15 @@
+[tool.ruff]
+line-length = 88
+fix = true
+
+[tool.ruff.format]
+docstring-code-format = true
+indent-style = "space"
+quote-style = "double"
+line-ending = "auto"
+
+[tool.ruff.lint]
+extend-ignore = ["E731"]
+
+[tool.ruff.lint.isort]
+lines-after-imports = 2
